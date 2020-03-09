@@ -1,0 +1,60 @@
+{
+    "menu_accueil": "Accueil",
+    "menu_presentation" : "Présentation",
+    "menu_equipe" : "Équipe",
+    "menu_projets":"Projets",
+
+    "slogan":"La face cachée du web",
+    "button" : "Voir plus",
+    "premier_h2" : "L'agence Iceberg",
+    "premier_h3" : "Créations de sites web innovants",
+
+    "agence_presentation":"Implantée sur La Rochelle, proche de la Faculté des sciences, notre agence, très récente, met à votre disposition une équipe jeune et dynamique pour la réalisation de vos projets web. Profitez de notre expertise et d'un accompagnement personnalisé pour mener à bien tous vos projets web.",
+    "agence_activite_titre":"Activité",
+    "agence_activite_li1":"<strong>Création de site internet : </strong> <em>site vitrines</em>, <em>site institutionnels</em>, <em>sites e-commerce</em>, etc...",
+    "agence_activite_li2":"<em>référencement naturel</em> - <em>SEO</em>, <em>communication visuelle</em>.",
+    "agence_activite_li3":"<strong>Formation : </strong>nous vous formons à la bonne utilisation et à la mise à jour de votre <em>site web</em>.",
+    "agence_methode_titre":"Méthodes",
+    "agence_methode":"Notre équipe utilise la méthode agile afin que vous soyez au coeur du projet et de son avancement. Cette méthode vous permettra de faire évoluer vos exigences tout au long du projet afin qu'au final, votre satisfaction soit optimale.",
+
+    "agence_equipe":"Notre équipe",
+    "agence_equipe_sub":"A votre écoute",
+
+    "agence_equipe_tristan":"PDG Motion Designer CM",
+    "agence_equipe_jennifer":"Graphiste Chef de Projet",
+    "agence_equipe_dev":"Développeur full stack",
+    "equipe_doryan_citation":" La chose la plus difficile est de n’attribuer aucune importance aux choses qui n’ont aucune importance. ",
+    "equipe_doryan_texte":" Étudiant en Licence professionnelle MIAW (MÉTIERS DE L’INFORMATIQUE : APPLICATIONS WEB) spécialisé dans le développement Full-Stack. Curieux et détendu, passionné d'informatique depuis plusieurs années. Doryan est compétent et travaille toujours de façon détendue, ce qui aide à être productif et à ne pas se perdre.",
+    "equipe_yann_citation" : "Vous ne pouvez pas comprendre la récursivité sans avoir d’abord compris la récursivité.",
+    "equipe_yann_texte" : "Étudiant en Licence professionnelle MIAW (MÉTIERS DE L’INFORMATIQUE : APPLICATIONS WEB) spécialisé dans le développement Full-Stack. Enthousiaste et travailleur, le métier de programmeur est une passion pour Yann.",
+    "equipe_jennifer_citation" : "C'est en faisant des erreurs que l'on apprend et que l'on se développe. Il faut être mauvais pour devenir bon.",
+    "equipe_jennifer_texte" : " Étudiante en Licence professionnelle MIAW (MÉTIERS DE L’INFORMATIQUE : APPLICATIONS WEB) spécialisé dans le webdesign et l'intégration. Passionnée par tout ce qui touche au dessin, celle-ci mets sa créativité à votre service.",
+    "equipe_tristan_citation" : "Un entrepreneur est quelqu'un qui se jette d'une falaise et construit un avion sur le chemin de la descente.",
+    "equipe_tristan_texte" : "Étudiant en Licence professionnelle MIAW (MÉTIERS DE L’INFORMATIQUE : APPLICATIONS WEB) spécialisé dans le webdesign et l'intégration. Passionné par le volley-ball, j'ai appris à travailler et à avancer de manière collective.",
+
+    "agence_projet":"Nos Projets",
+    "agence_projet_sub":"Ils nous ont fait confiance",
+
+    "agence_contact_sub":"Vous souhaitez obtenir une information ?",
+    "agence_form_nom":"Nom",
+    "agence_form_objet":"Objet",
+    "agence_form_valider":"Envoyer",
+
+    "presentation_onglet":"IceBerg - Présentation",
+    "presentation_agence":"Implantée sur <strong> La Rochelle </strong>, proche de la Faculté des sciences, notre agence, très récente, met à votre disposition une équipe jeune et dynamique pour la réalisation de vos <strong>sites web</strong>. Profitez de notre expertise et d'un accompagnement personnalisé pour mener à bien tous vos <strong>projets web.</strong>",
+    "presentation_service":"Nos Services",
+    "presentation_service1":"<strong>Création de sites web</strong>",
+    "presentation_service1_texte":"Des <strong>site vitrines</strong> aux <strong>sites e-commerce</strong> en passant par les <strong>sites institutionnels</strong>, nous sommes en mesure de créer le <strong>site web</strong> qu’il vous faut afin que rayonniez sur le <strong>web</strong>. Nous sommes à l’écoute de votre projet du début jusqu’à son terme afin que celui-ci vous convienne le plus possible.",
+    "presentation_service2_texte":"Suite à la création de votre <strong>site web</strong>, notre équipe s’assure que le <strong>référencement</strong> de votre <strong>site web</strong> soit optimal afin que votre site soit le plus visible possible. De plus, nous agissons aussi sur votre <strong>communication visuelle</strong>, de l’élaboration de votre <strong>charte graphique</strong> à la création de livrables tels que des <strong>flyers</strong>, <strong>cartes de visite</strong> ou autre, nous vous conseillons de A à Z pour les démarches à suivre.",
+    "presentation_service3_texte":"C’est bien beau de vous créer votre <strong>site web</strong>. Cependant, si on ne vous apprend pas comment bien l’utiliser, cela n’a pas grand intérêt. C’est pourquoi notre équipe veille à vous former à la bonne utilisation de <strong>votre site web</strong> afin que vous puissiez en bénéficier pleinement.",
+
+    "presentation_methode":"Notre méthode",
+    "presentation_methode_agile":"MÉTHODE AGILE",
+    "presentation_methode_texte":"Notre équipe utilise la <strong>méthode agile</strong> afin que vous soyez au coeur du projet et de son avancement. Cette méthode vous permettra de faire évoluer vos exigences tout au long du projet afin qu'au final, votre satisfaction soit optimale.",
+    "presentation_methode_texte2":"Pour cela, nous utilisons un système de post-il, sur lesquels nous écrivons les différentes tâches à réaliser, nous leur accordons un ordre d’importance, puis nous les exécutons et les plaçons dans différentes cases (”à faire”, “en cours”, “à vérifier” et “terminé” en fonction de leur avancement).",
+
+    "presentation_contact_titre":"Contactez-nous !",
+    "presentation_contact_texte":"Notre équipe serait ravie de travailler avec vous. Il ne vous reste plus qu’à nous confier votre <strong>projet web</strong>. Pour cela, n’hésitez pas à nous contacter, nous ne sommes pas froids comme la glace.",
+
+    "mentions":"Mentions légales"
+}

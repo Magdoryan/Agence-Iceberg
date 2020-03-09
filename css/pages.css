@@ -1,0 +1,770 @@
+/*******************
+*******GENERAL******
+*******************/
+
+/*******fonts*******/
+@font-face {
+    font-family: mainFont;
+    src: url(../fonts/NexaBold.otf);
+}
+
+@font-face {
+    font-family: lightFont;
+    src: url(../fonts/NexaLight.otf);
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*******HEADER*******/
+    /*logo*/
+    .logo {
+        position: fixed;
+        top: 5px; left: 5px;
+        z-index: 6;
+        filter: drop-shadow(3px 3px 2px #1a3240);
+    }
+    /*burger*/
+    .burger {
+        width: 60px;
+        position: fixed;
+        top: 20px; right: 25px;
+        z-index: 6;
+    }
+/*******BODY*******/
+    /*menu burger*/
+    .displayBurger {
+        top: -500vh;
+        transition: 2s;
+        -webkit-transition: all 2s ease;
+        position: fixed;
+    }
+    .burgerTop {
+        position: fixed;
+        top: 0px;
+    }
+    .menu {
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        background-image: url('../img/menu.gif  ');
+        background-size: cover;
+        z-index: 7;
+    }
+    .aMenu {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .element {
+        font-size: 3.7rem;
+        line-height: 150%;
+        font-family: mainFont;
+    }
+    .close {
+        width: 60px;
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        z-index: 8;
+    }
+    .reseauSoc {
+        padding-right: 15px;
+        font-size: 0.5em;
+        color: #ffffff;
+    }
+
+    .reseauSoc:hover {
+        color: #336580;
+    }
+/********PAGES********/
+    /*Presentation*/
+    .pres h3, .pres p{
+        font-family:lightFont;
+    }
+    .head{
+        display:flex;
+        height:20vh;
+        align-items: center;
+        justify-content: center;
+        font-family: mainFont;
+        font-size: 4em;
+    }
+    .present{
+        width:90%;
+        margin:auto;
+    }
+    .present h2{
+        font-family:mainFont;
+        font-size: 1rem;
+        margin-top:10%;
+        width:30%;
+        padding-bottom:1%;
+        margin-bottom:5%;
+        border-bottom: 1px solid #5cb5e6;
+    }
+    .present p{
+        font-size:0.8rem;
+        font-family:lightFont;
+        text-align:justify;
+        line-height:20px;
+    }
+    /*serv*/
+    .serv1{
+        background-color: #5cb5e6;
+    }
+    .serv1 h2{
+        float:right;
+        text-align:center;
+        font-family:mainFont;
+        width:32%;
+        padding-bottom:1%;
+        border-bottom: 1px solid white;
+        color:white;
+    }
+    .icontitle{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+    }
+    .serv1 h3{
+        color:white;
+        font-size:1em;
+        padding:5%;
+    }
+    .serv1 p{
+        text-align:justify;
+        color:white;
+        line-height:20px;
+        font-size:0.8rem;
+    }
+    
+    .serv2{
+        padding: 5%;
+    }
+    .serv2 h3{
+        font-size:1em;
+        padding:5%;
+    }
+    .serv2 p{
+        text-align:justify;
+        line-height:20px;
+        font-size:0.8rem;
+    }
+
+    .serv3{
+        padding: 5%;
+    }
+    .serv3 svg{
+        height:auto;
+    }
+    .serv3 h3{
+        font-size:1em;
+        padding:5%;
+    }
+    .serv3 p{
+        text-align:justify;
+        line-height:20px;
+        font-size:0.8rem;
+    }
+
+    /*methode*/
+    .methode{
+        padding:5%;
+    }
+    .methode h2{
+        text-align:center;
+        font-family:mainFont;
+        width:37%;
+        padding-bottom:1%;
+        border-bottom: 1px solid;
+    }
+    .methode div{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .methode h3{
+        font-family:lightFont;
+        font-size:1em;
+        padding:5%;
+    }
+    .methode p{
+        text-align:justify;
+        line-height:20px;
+        font-size:0.8rem;
+    }
+
+    .imgPara{
+        width:100%;
+        height:20vh;
+        background-image: url(../img/methode_agile.jpg);
+        background-size:cover;
+    }
+    
+    .sousPara{
+        width:80%;
+        margin:4% auto 4% auto;
+        text-align:center;
+        font-size:1.2em;
+        line-height:30px;
+    }
+
+    /*contact*/
+    .contactPres{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#5cb5e6;
+        padding: 5%;
+        text-align: center;
+    }
+    .contactPres h2{
+        font-family:lightFont;
+        font-size:1rem;
+        color:white;
+    }
+    .contactPres a{
+        text-align: center;
+    }
+    .contactPres img{
+        margin-bottom:10%;
+        margin-top:10%;
+        width:20%;
+    }
+    .contactPres path{
+        fill:white;
+    }
+    .contactPres p{
+        color:white;
+        text-align:justify;
+        line-height:20px;
+        font-size:0.8rem;
+    }
+
+/*Equipe*/
+    .equipeTitre {
+        text-align: center;
+        font-size: 4em;
+        font-family: mainFont;
+        color: #335680;
+        margin-top: 3%;
+        text-transform: uppercase;
+    }
+
+    .equipeT2, .equipeT1 {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        margin-top: 5rem;
+    }
+
+    /* sections */
+    .losange {
+        background: #5cb5e6;
+        -ms-transform: rotate(45deg); /* Internet Explorer */
+        -moz-transform: rotate(45deg); /* Firefox */
+        -webkit-transform: rotate(45deg); /* Safari et Chrome */
+        -o-transform: rotate(45deg); /* Opera */
+    }
+
+    .losange div {
+        -ms-transform: rotate(45deg); /* Internet Explorer */
+        -moz-transform: rotate(-45deg); /* Firefox */
+        -webkit-transform: rotate(-45deg); /* Safari et Chrome */
+        -o-transform: rotate(-45deg); /* Opera */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .losange div p {
+        font-family: mainFont;
+        color: #ffffff;
+    }
+
+    /* info */
+
+    .infoP {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .textContainer {
+        display: flex;
+        flex-direction: row;
+        margin: 15px;
+    }
+
+    .text {
+        padding-left: 20px;
+        font-family: lightFont;
+    }
+
+    .textContainer img {
+        width: 4rem;
+        height: 4rem;
+        fill: #336580;
+    }
+/* page mentions légales */
+    .mentions .head{
+        display:flex;
+        width:100%;
+        height:20vh;
+        align-items: center;
+        justify-content: center;
+        font-family: mainFont;
+        font-size: 4em;
+    }
+    .mentions{
+        padding:5%;
+        text-align:justify;
+    }
+    .mentions h2{
+        font-family: mainFont;
+        font-size:2rem;
+        margin:2%;
+    }
+    .mentions h3{
+        font-family: mainFont;
+        font-size:1.5rem;
+        margin:2%;
+    }
+    .mentions p{
+        font-family:lightFont;
+        line-height:1.5;
+    }
+    .mentions a{
+        text-decoration:none;
+        color:#5cb5e6;
+    }
+    
+/*******************
+*****ORDINATEUR*****
+*******************/
+@media screen and (min-width: 1001px) {
+/*******HEADER*******/
+    /*logo*/
+    .logo {
+        width: 75px;
+    }
+    .logo:hover {
+        filter: drop-shadow(-3px -3px 2px #1a3240);
+        cursor: pointer;
+    }
+    /*burger*/
+    .burger:hover {
+        cursor: pointer;
+        -webkit-transform:rotate(90deg);
+        transition: all 0.35s ease;
+    }
+    .burger:not(:hover) {
+        cursor: pointer;
+        -webkit-transform:rotate(0deg);
+        transition: all 0.35s ease;
+    }
+
+/*******BODY*******/
+    /*menu burger*/
+    .aMenu:hover {
+        text-shadow: 7px 6px #336580;
+        transition: all 0.1s ease;
+    }
+    #close {
+        width: 50px;
+    }
+    .close:hover {
+        cursor: pointer;
+        -webkit-transform:rotate(0deg);
+        transition: all 0.35s ease;
+    }
+    .close:not(:hover) {
+        cursor: pointer;
+        -webkit-transform:rotate(-90deg);
+        transition: all 0.35s ease;
+    }
+    .element {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform:translate(-50%, -50%);
+    }
+/******PAGES*****/
+/*presentation*/
+    /*present*/
+    .present {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .present h2{
+        text-align:center;
+        padding-bottom : 0.5%;
+        border-bottom:3px solid #5cb5e6;
+        font-size: 2em;
+        width:14%;
+        margin-top: initial;
+    }
+    .present p{
+        width:90%;
+        margin-bottom:4%;
+        text-align:center;
+        font-size:1.2em;
+        line-height:30px;
+    }
+    /*serv*/
+    .serv{
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+    .serv1{
+        width:45%;
+        padding:2%;
+    }
+    .serv1 h2{
+        width: 30%;
+        padding-bottom : 0.5%;
+        border-width: 3px;
+        font-size: 2em;
+        float: initial;
+        text-align: initial;
+    }
+    .serv1 img, .serv2 img{
+        width:15%;
+    }
+    .serv1 h3, .serv2 h3, .serv3 h3, .methode h3{
+        font-size:1.2em;
+    }
+    .serv1 p, .serv2 p, .serv3 p{
+        line-height:30px;
+        font-size: initial;
+    }
+
+    .serv2{
+        width:45%;
+        padding:2%;
+        padding-top:4%;
+    }
+
+    .serv3{
+        display:flex;
+        flex-direction:column;
+        margin: 2vh auto 0px auto;
+        width:80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .serv3 h3{
+        color:#000000;
+    }
+    .serv3 svg{
+        margin-top: initial;
+        width: 10%;
+    }
+    .serv3 p{
+        width: 68%;
+    }
+
+    .methode{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .methode h2{
+        padding-bottom : 0.5%;
+        border-bottom:3px solid #5cb5e6;
+        font-size: 2em;
+        width:16%;
+    }
+    .methode p{
+        width:80%;
+        margin-bottom:4%;
+        text-align:center;
+        font-size:1.2em;
+        line-height:30px;
+    }
+    .methode img{
+        margin-top: 5%;
+        width: 8%;
+    }
+
+    .imgPara{
+        height:40vh;
+        background-attachment: fixed;
+    }
+    
+    .contactPres h2{
+        padding-bottom : 0.5%;
+        border-bottom:3px solid white;
+        font-family: mainFont;
+        font-size: 2em;
+        width:18%;
+    }
+    .contactPres p{
+        font-size:1.2em;
+        width:60%;
+        line-height:30px;
+    }
+
+/*Equipe*/
+    /*section*/
+    .equipeT2, .equipeT1 {
+        background-size: 100% 100%;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .equipeT1{
+        background-image: url('../img/bg/bgEq-01.png');
+    }
+    .equipeT2{
+        background-image: url('../img/bg/bgEq-02.png');
+    }
+    /*head*/
+    .losange {
+        height: 390px;
+        width: 390px;
+    }
+    .losange div img {
+        width: 380px;
+    }
+    
+    .infoP{
+        width: 40%;
+    }
+    .text{
+        font-size: 150%;
+        line-height: 35px;
+    }
+}
+
+/*******************
+*******MOBILE*******
+*******************/
+
+@media screen and (max-width: 1000px){
+/*******HEADER*******/
+    /*logo*/
+    .logo {
+        width: 40px;
+    }
+    /*burger*/
+    .burger {
+        width: 40px;
+    }
+/*******BODY*******/
+    /*menu burger*/
+    .aMenu {
+        text-shadow: 3px 2px #335680;
+    }
+    #close {
+        width: 40px;
+    }
+    .close {
+        width: 40px;
+        top: 10px;
+        right: 20px;
+    }
+    .element {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 15%;
+    }
+/********PAGES********/
+/*presentation*/
+    /*head*/
+    .head{
+        height: initial;
+        font-size: 15vw;
+        text-align: center;
+    }
+    /*serv*/
+    .serv1{
+        margin-top:5%;
+        padding: 5%;
+    }
+    .serv1 img, .serv2 img, .serv3 svg, .methode img{
+        margin-top: 10%;
+        width:20%;
+    }
+    
+    .serv3{
+        background-color:#5cb5e6;
+    }
+    .serv3 path{
+        fill:white;
+    }
+    .serv3 h3, .serv3 p{
+        color:white;
+    }
+
+    .sousPara{
+        padding:5%;
+        text-align:justify;
+        line-height:20px;
+        font-size:0.8rem;
+        margin: initial;
+    }
+
+/*Equipe*/
+    .equipeTitre{
+        width: 70%;
+        margin: auto;
+    }
+    /*head*/
+    .equipe{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 5rem;
+    }
+
+    .equipeT1{
+        flex-direction: column-reverse;
+    }
+    .equipeT1, .equipeT2{
+        height: initial;
+    }
+    .losange div img {
+        width: 150px;
+
+    }
+    .losange {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 20%;
+    }
+    .losange div{
+        margin-top:8%;
+    }
+    .text {
+        font-size: 17px;
+    }
+    
+/* projets */
+
+    .total {
+        width: 100%;
+        height: 60%;
+        margin-top: 10%;
+    }
+
+    .row {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    .cell {
+        background-image: url('../img/client/fond1.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .cellInside {
+        background-color: #000000;
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .cellInside:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: 0.6s ease;
+        z-index: 10;
+    }
+
+    .cellInside:not(:hover) {
+        transition: 0.4s;
+    }
+
+    .logoClient {
+        width: 27%;
+        opacity: 1;
+    }
+
+    /* balise */
+
+    .projets {
+        background-color: #254462;
+        width: 100%;
+    }
+
+    .projets h1 {
+        text-align: center;
+        font-size: 4em;
+        font-family: mainFont;
+        color: #ffffff;
+        margin-top: 2%;
+    }
+
+    .equipe h1 {
+        text-align: center;
+        font-size: 4em;
+        font-family: mainFont;
+        color: #335680;
+        margin-top: 2%;
+    }
+
+    .projets h2 {
+        text-align: center;
+        font-size: 1.7em;
+        font-family: lightFont;
+        color: #ffffff;
+        padding-top: 5px;
+    }
+
+    /* Menu */
+    .back {
+        font-family: mainFont;
+        text-align: center;
+        margin: 25px;
+    }
+}
+
+/*******************
+****MOB_PAYSAGE*****
+*******************/
+@media screen and (max-height: 500px){
+/*******BODY*******/
+/*menu burger*/
+    .element {
+        font-size: 2rem;
+        margin-top: 5%;
+    }
+/********PAGES********/
+    /*presentation*/
+    .head{
+        font-size: 4em;
+        height: 20vw;
+    }
+    /*serv*/
+    .serv1 img, .serv2 img, .serv3 svg, .methode img{
+        margin-top: 2%;
+        width:10%;
+    }
+
+    .imgPara{
+        height:40vh;
+    }
+    .losange {
+        margin-bottom: 10%;
+    }
+    
+}

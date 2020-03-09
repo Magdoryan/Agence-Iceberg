@@ -1,0 +1,61 @@
+{
+    "menu_accueil": "Home",
+    "menu_presentation" : "Presentation",
+    "menu_equipe" : "Team",
+    "menu_projets":"Projects",
+
+    "slogan" : "The hidden side of the web",
+    "button" : "See more",
+    "premier_h2" : "Iceberg agency",
+    "premier_h3" : "Creation of innovative websites",
+
+    "agence_presentation":"Located in La Rochelle, close to the Faculty of Science, our agency, very recent, provides you with a young and dynamic team for the realization of your web projects. Take advantage of our expertise and personalized support to successfully complete all your web projects.",
+    "agence_activite_titre":"Activity",
+    "agence_activite_li1":"<strong>Website creation : </strong> <em>showcase website</em>, <em>institutional website</em>, <em>e-commerce websites</em>, etc....",
+    "agence_activite_li2":"<em>natural referencing</em> - <em>SEO</em>, <em>visual communication</em>.",
+    "agence_activite_li3":"<strong>Training : </strong> we train you in the proper use and updating of your <em>website</em>.",
+    "agence_methode_titre":"Methods",
+    "agence_methode" : "Our team uses the agile method to ensure that you are at the heart of the project and its progress. This method will allow you to develop your requirements throughout the project so that your satisfaction is optimal.",
+    
+    "agence_equipe":"Our team",
+    "agence_equipe_sub":"Listening to you",
+
+    "agence_equipe_tristan":"CEO Motion Designer CM",
+    "agence_equipe_jennifer":"Graphic Designer Project Manager",
+    "agence_equipe_dev":"Full stack developer",
+    "equipe_doryan_citation":"The most difficult thing is to give no importance to things that are not important.",
+    "equipe_doryan_texte":"Student in a professional licence (IT SECTORS: WEB APPLICATIONS) specialized in Full-Stack development. Curious and relaxed, passionate about computers for several years. Doryan is competent and always works in a relaxed way, which helps to be productive and not get lost.",
+    "equipe_yann_citation" : "You cannot understand recursivity without first understanding recursivity.",
+    "equipe_yann_texte" :"Student in a professional licence (IT SECTORS: WEB APPLICATIONS) specialized in Full-Stack development. Enthusiastic and hardworking, the job of programmer is a passion for Yann.",
+    "equipe_jennifer_citation" : "It is by making mistakes that we learn and develop. You have to be bad to become good.",
+    "equipe_jennifer_texte" : " Student in a professional licence (INFORMATICS SECTORS: WEB APPLICATIONS) specialised in web design and integration. Passionate about everything related to drawing, she puts her creativity at your service.",
+    "equipe_tristan_citation" : "A businessman is someone who throws himself off a cliff and builds a plane on the way down.",
+    "equipe_tristan_texte" : "Student in a professional licence (IT SECTORS: WEB APPLICATIONS) specialized in web design and integration. Passionate about volleyball, I learned to work and progress as a team.",
+
+
+    "agence_projet":"Our projects",
+    "agence_projet_sub":"They trusted us",
+
+    "agence_contact_sub":"Would you like to receive information?",
+    "agence_form_nom":"Name",
+    "agence_form_objet":"Object",
+    "agence_form_valider":"Send",
+
+    "presentation_onglet":"IceBerg - Presentation",
+    "presentation_agence":"Located on <strong> La Rochelle </strong>, close to the Faculty of Science, our agency, very recent, provides you with a young and dynamic team for the realization of your <strong> website</strong>. Take advantage of our expertise and personalized support to successfully complete all your <strong>web projects. </strong>",
+    "presentation_service":"Our Services",
+    "presentation_service1":"<strong>Websites conception</strong>",
+    "presentation_service1_texte":"From <strong>showcase sites</strong> to <strong> e-commerce sites</strong> and institutional sites</strong>, we are able to create the <strong>website</strong> that you need so that you can shine on the <strong>web</strong>. We listen to your project from start to finish so that it suits you as much as possible.",
+    "presentation_service2_texte":"Following the creation of your <strong>website</strong>, our team ensures that the <strong>referencing</strong> of your <strong>website</strong> is optimal so that your site is as visible as possible. In addition, we also work on your <strong>visual communication</strong>, from the development of your <strong>graphic charter</strong> to the creation of deliverables such as <strong>flyers</strong>, <strong>business cards</strong> or other, we advise you from A to Z for the steps to follow.",
+    "presentation_service3_texte":"It's great to create <strong>your website</strong>. However, if you are not taught how to use it properly, it is not in your best interest. That's why our team is committed to training you in the proper use of your <strong>website</strong> so that you can fully benefit from it.",
+
+    "presentation_methode":"Our method",
+    "presentation_methode_agile":"AGILE SOFTWARE DEVELOPMENT",
+    "presentation_methode_texte":"Our team uses the <strong>agile software development</strong> so that you are at the heart of the project and its progress. This method will allow you to develop your requirements throughout the project so that your satisfaction is optimal.",
+    "presentation_methode_texte2":"To do this, we use a post-il system, on which we write the different tasks to be performed, give them an order of importance, then we execute them and place them in different boxes (\"to do\", \"in progress\", \"to check\" and \"finished\" according to their progress).",
+
+    "presentation_contact_titre":"Contact us !",
+    "presentation_contact_texte":"Our team would be delighted to work with you. All you have to do is entrust us with your <strong>web project</strong>. For that, do not hesitate to contact us, we are not cold like ice.",
+
+    "mentions":"Legal Informations"
+}

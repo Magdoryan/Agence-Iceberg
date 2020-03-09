@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/index.php</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/index.php?lang=fr</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/index.php?lang=en</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/pages/presentation.php</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/pages/equipe.php</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/pages/projets.php</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/pages/mentions.php</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/pages/presentation.php?lang=fr</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/pages/presentation.php?lang=en</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/pages/equipe.php?lang=fr</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://agence-iceberg.lpmiaw.univ-lr.fr/pages/equipe.php?lang=en</loc>
+  <lastmod>2019-11-25T16:26:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
